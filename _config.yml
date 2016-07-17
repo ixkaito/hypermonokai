@@ -1,0 +1,16 @@
+# Site settings
+title: 'HyperMonokai: Monokai color theme for HyperTerm'
+description: Monokai color theme for HyperTerm
+url: http://ixkaito.github.io # the base hostname & protocol for your site
+baseurl: '/hypermonokai' # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+exclude:
+  - frasco.config.js
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - npm-debug.log
+  - package.json
+  - README.md

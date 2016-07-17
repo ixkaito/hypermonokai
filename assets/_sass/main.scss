@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import "bourbon/bourbon";
+@import "neat/neat";
+// @import "base/base";
+
+$max-width: 768px;
+
+$black:      #272822;
+$white:      #f8f8f2;
+$magenta:    #f92672;
+$dark-gray:  #49483e;
+$light-gray: #75715e;
+
+body {
+	background: #000;
+	color: $white;
+	line-height: 1.5;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: $magenta;
+
+	&:hover {
+		background: $magenta;
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+h1, h2, h3 ,h4, h5, h6, p, pre, code {
+	font: 12px Menlo, "DejaVu Sans Mono", "Lucida Console", monospace;
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+
+	&:before {
+		content: "# ";
+	}
+}
+
+h2 {
+
+	&:before {
+		content: "## ";
+	}
+}
+
+h3 {
+
+	&:before {
+		content: "### ";
+	}
+}
+
+h4 {
+
+	&:before {
+		content: "#### ";
+	}
+}
+
+h5 {
+
+	&:before {
+		content: "##### ";
+	}
+}
+
+h6 {
+
+	&:before {
+		content: "###### ";
+	}
+}
+
+pre {
+	overflow-y: auto;
+	padding: 1em;
+}
+
+code {
+	background: $dark-gray;
+	display: inline-block;
+}
+
+.container {
+	@include outer-container;
+	padding: 15px;
+
+	@include media(480px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	@include media(640px) {
+		padding: 25px;
+	}
+
+	@include media(762px) {
+		padding: 28px;
+	}
+}
+
+.main-image {
+	margin: 1.5em auto;
+	text-align: center;
+}
