@@ -1,7 +1,7 @@
 {
   "name": "hypermonokai",
-  "version": "0.0.3",
-  "description": "Monokai theme for [HyperTerm](https://hyperterm.org).",
+  "version": "0.0.4",
+  "description": "Monokai theme for HyperTerm.",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -17,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/ixkaito/hypermonokai/issues"
   },
-  "homepage": "https://github.com/ixkaito/hypermonokai#readme"
+  "homepage": "https://ixkaito.github.io/hypermonokai/"
 }
