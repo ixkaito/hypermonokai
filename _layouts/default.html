@@ -2,13 +2,9 @@
 layout: compress
 ---
 
-{% assign homeurl = '/' | prepend: site.baseurl %}
-
-{% if page.url == homeurl %}
+{% if page.url == '/' %}
 	{% assign is_home = true %}
 {% endif %}
-
-page.url: {{ page.url }} / homeurl: {{ homeurl }}
 
 {% include header.html %}
 
