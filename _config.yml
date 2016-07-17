@@ -14,3 +14,9 @@ exclude:
   - npm-debug.log
   - package.json
   - README.md
+
+twitter:
+  id: ixkaito
+
+facebook:
+  admin: 1047363919

@@ -4,7 +4,7 @@ layout: default
 
 # HyperMonokai
 
-Monokai theme for <a href="https://hyperterm.org" target="_blank">HyperTerm</a>. Turns HyperTerm Monokai color scheme.
+Monokai color theme for <a href="https://hyperterm.org" target="_blank">HyperTerm</a>.
 
 <figure class="main-image"><img src="{{ '/assets/images/main-image.png' | prepend: site.baseurl | prepend: site.url }}" alt="HyperMonokai"></figure>
 
