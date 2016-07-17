@@ -1,7 +1,21 @@
 {
-  "name": "hyperymonokai",
-  "version": "0.0.2",
-  "keywords": ["hyperterm"],
-  "description": "Monokai theme for HyperTerm",
-  "dependencies": {}
+  "name": "hypermonokai",
+  "version": "0.0.3",
+  "description": "Monokai theme for [HyperTerm](https://hyperterm.org).",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixkaito/hypermonokai.git"
+  },
+  "keywords": [
+    "hyperterm",
+    "monokai"
+  ],
+  "author": "Kite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ixkaito/hypermonokai/issues"
+  },
+  "homepage": "https://github.com/ixkaito/hypermonokai#readme"
 }
